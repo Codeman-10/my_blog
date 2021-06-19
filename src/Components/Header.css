@@ -1,0 +1,39 @@
+a:hover {
+    color: black;
+  }
+  a {
+    text-decoration: none;
+  
+  }
+  .header_container {
+    height: 50px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    align-self: center;
+  }
+  .header_left {
+    display: flex;
+    text-align: center;
+    align-self: center;
+    text-transform: uppercase;
+  }
+  .header_right {
+    display: flex;
+    text-align: center;
+  }
+  .header_left > h3:hover {
+    color: black;
+  }
+  .header_left > h3 {
+    color: whitesmoke;
+    line-height: 2;
+  }
+  .header_right > p {
+    margin-right: 10px;
+  }
